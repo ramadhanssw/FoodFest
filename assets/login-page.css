@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+
+body {
+  align-items: center;
+  margin: auto;
+  font-family: "Monserrat", sans-serif;
+  width: 30%;
+  background-image: url("../assets/image/food-background.jpg");
+  background-repeat: repeat;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 2px;
+  margin-top: 20px;
+}
+
+.logo {
+  text-decoration: underline overline;
+  font-family: "Calistoga", "Monserrat", sans-serif;
+  color: #0b7058;
+}
+
+.logo:hover {
+  text-decoration: underline overline;
+  font-size: 1.1em;
+}
+
+.content {
+  margin: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 16px;
+}
+
+.hiddentext {
+  opacity: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 1150px) {
+  body {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 60%;
+  }
+}
+
+/* untuk mobile */
+@media screen and (max-width: 576px) {
+  body {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 90%;
+  }
+}
